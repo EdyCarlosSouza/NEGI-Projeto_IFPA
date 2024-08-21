@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.interface {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.titulo{
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+    text-shadow: 0 0 20px #00000057;
+    
+}
+
+button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background-image: url(images/NEGI-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+/* Cabeçalho */
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+header .btn-sign{
+    background-color: #ad5ff3;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #00000050;
+}
+
+header .btn-sign #btn-entrar {
+    color: #ffffff;
+    background-color: #ffffff00;
+}
+
+header .btn-sign #btn-cadastro {
+    color: #ffffff;
+    background-color: #12bfab;
+    transition: .2s;
+}
+
+header .btn-sign #btn-cadastro:hover {
+    background: linear-gradient(#ad5ff3, #12bfab, #10266f, left);
+    color: #ffffff;
+}
+
+/* Topo do site */
+
+
+section.topo-do-site {
+    padding: 40px 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+section.topo-do-site .container-flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site{
+    width: 60%;
+}
+
+.topo-do-site .txt-topo-site h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 80px;
+    line-height: 90px;
+    text-shadow: 0 0 20px #00000057;
+}
+.topo-do-site .txt-topo-site p {
+    width: 45%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #00000050;
+    background-color: #ad5ff3;
+}
+
+.topo-do-site .txt-topo-site .p1{
+    width: 50%;
+}
+
+.topo-do-site .txt-topo-site .container-btn-topo {
+    display: flex;
+    align-items: center;
+}
+
+.topo-do-site .txt-topo-site .container-btn-topo button {
+    background-color: #134ad700;
+    border: 2px solid #12bfab;
+    height: 50%;
+    transition: .2s;
+}
+
+.topo-do-site .txt-topo-site .container-btn-topo button a {
+    padding: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topo-do-site .txt-topo-site .container-btn-topo button i {
+    padding: 4px 8px;
+    color: #12bfab;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    margin-top: 50px;
+    width: 420px;
+    height: 420px;
+    animation: img_flutuante 2s ease-in-out infinite alternate;
+}
+
+@keyframes img_flutuante {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/* section vantagens*/
+
+section.vantagens{
+    padding: 40px 4%;
+    height: 100vh;
+    background: linear-gradient(#12bfab, #ad5ff3);
+    box-shadow: 20px 0 30px #12bfab;
+}
+
+.vantagens .container-flex{
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.vantagens .container-vantagens{
+    display: flex;
+    height: 200px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+
+.vantagens .texto-vantagens {
+    width: 50%;
+}
+.vantagens .texto-vantagens h3{
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-size: 23px;
+    color: #10266f;
+}
